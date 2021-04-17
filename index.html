@@ -11,12 +11,12 @@
         rel="stylesheet">
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <ul>
+    <div class="container logo-header">
+        <nav class="header">
+            <ul class="logo-item">
                 <li><a class="header-logo" href="index.html"><span>Web</span>Studio</a></li>
             </ul>
-            <ul>
+            <ul class="link-items">
                 <li><a class="link" href="#">Agencja</a></li>
                 <li><a class="link" href="portfolio.html">Portfolio</a></li>
                 <li><a class="link" href="#">Kontakt</a></li>
@@ -27,11 +27,10 @@
     </div>
     <main>
         <!--HERO-->
-        <div id="hero">
+            <div class="container hero">
                 <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button class="btn" type="button">Zamów usługe</button>
-        </div>
-
+                <button style="margin-bottom: 200px" class="btn" type="button">Zamów usługe</button>
+            </div>
         <!--USŁUGI-->
         <section class="service">
             <ul class="services">
@@ -65,11 +64,14 @@
         </section>
 
         <!--ZESPÓŁ-->
-        <div id="team">
+        <div class="container head">
+            <h2>&nbsp;</h2>
             <h2>Nasz zespół</h2>
-            <ul>
+        </div>
+        <div class="container team">
+            <ul class="team-list">
                 <li>
-                    <figure>
+                    <figure class="picture">
                         <img src="images/team/team1.jpg" alt="product designer" width="270" height="260">
                         <figcaption>
                             <h3 class="name">John Doe</h3>
@@ -78,7 +80,7 @@
                     </figure>
                 </li>
                 <li>
-                    <figure>
+                    <figure class="picture">
                         <img src="images/team/team2.jpg" alt="frontend developer" width="270" height="260">
                         <figcaption>
                             <h3 class="name">John Doe</h3>
@@ -87,7 +89,7 @@
                     </figure>
                 </li>
                 <li>
-                    <figure>
+                    <figure class="picture">
                         <img src="images/team/team3.jpg" alt="marketing" width="270" height="260">
                         <figcaption>
                             <h3 class="name">John Doe</h3>
@@ -96,7 +98,7 @@
                     </figure>
                 </li>
                 <li>
-                    <figure>
+                    <figure class="picture">
                         <img src="images/team/team4.jpg" alt="ui designer" width="270" height="260">
                         <figcaption>
                             <h3 class="name">John Doe</h3>
@@ -107,9 +109,10 @@
             </ul>
         </div>
     </main>
-    <div id="footer">
+    <div class="container footer">
         <nav>
-            <ul>
+            <ul class="address">
+                <li style="height: 0">&nbsp;</li>
                 <li><a class="logo" href="#"><span>Web</span>Studio</a></li>
             </ul>
         </nav>
