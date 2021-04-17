@@ -1,0 +1,126 @@
+:root {
+    --first-font: 'Roboto', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+    --first-color: #212121;
+    --second-color: #757575;
+    --third-color: #2196F3;
+    --fourth-color: #FFFFFF;
+    --first-background-color: #E5E5E5;
+    --second-background-color: #2F303A;
+    --third-background-color: #F5F4FA;
+    --fourth-background-color: #ffffff;
+    --first-cursor: pointer;
+    --list-style-type: none;
+}
+body {
+    font-family: var(--first-font);
+    color: var(--first-color);
+    background-color: var(--first-background-color);
+}
+ul {
+    list-style-type: var(--list-style-type);
+}
+.btn:hover,
+.btn:focus {
+    cursor: var(--first-cursor);
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+}
+.link:hover,
+.link:focus {
+    cursor: var(--first-cursor);
+    color:var(--third-color);
+}
+.address-link:hover,
+.address-link:focus {
+    cursor:var(--first-cursor);
+    color:var(--third-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+    cursor:var(--first-cursor);
+    color:var(--third-color);
+}
+.link,
+.address-link,
+.contact-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+.link {
+    color:var(--first-color)
+}
+.contact-link {
+    color:var(--second-color);
+}
+.address-link {
+    color:var(--fourth-color);
+      line-height: 1.714;
+}
+.address {
+    font-style: normal;
+}
+.logo,
+.header-logo {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+.logo {
+    color: var(--fourth-color);
+}
+.header-logo {
+    color:var(--first-color);
+}
+span {
+    color:var(--third-color);
+}
+.alt,
+.service-desc {
+    color:var(--second-color);
+}
+.alt {
+    line-height: 1.875;
+}
+.description {
+    font-size: 18px;
+    line-height: 2;
+}
+.btn {
+    font-size: 16px;
+}
+.title {
+    font-size: 44px;
+    color:var(--fourth-color);
+    text-align: center;
+}
+.service-name,
+.service-desc {
+    font-size: 14px;
+}
+.service-name {
+    line-height: 1.172;
+}
+.service-desk {
+    line-height: 1.714;
+}
+h2 {
+    font-size: 36px;
+}
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.171;
+}
+#header{
+    background-color: var(--fourth-color);
+}
+#footer,
+#hero{
+    background-color: var(--second-background-color);
+    height: 252px;
+}
+#team{
+    background-color: var(--third-background-color);
+}
+
