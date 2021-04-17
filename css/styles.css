@@ -133,13 +133,21 @@ img {
 .services {
     display: flex;
 }
+.service-item {
+    padding: 94px 30px;
+}
+.specializations {
+    display: flex;
+}
+.specialization-item {
+    padding: 50px 15px 94px;
+}
 .head {
     background-color: var(--third-background-color);
     margin-top: 94px;
     text-align: center;
 }
 .team {
-    height: 562px;
     background-color: var(--third-background-color);
     margin-bottom: -94px;
 }
