@@ -15,11 +15,58 @@
 body {
     font-family: var(--first-font);
     color: var(--first-color);
-    background-color: var(--first-background-color);
 }
-ul {
+ul,
+ol {
     list-style-type: var(--list-style-type);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+p {
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    border: 1px dashed black;
+    background-color: #E5E5E5;
+}
+
+/* ===========header=========== */
+
+/* ===========main:buttons=========== */
+.container .container-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.btn {
+    padding: 6px 22px;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
+    border-radius: 4px;
+}
+.buttons-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+/* ===========main:images=========== */
+
+/* ===========footer=========== */
+
 .btn:hover,
 .btn:focus {
     cursor: var(--first-cursor);
@@ -111,16 +158,5 @@ h2 {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.171;
-}
-#header{
-    background-color: var(--fourth-color);
-}
-#footer,
-#hero{
-    background-color: var(--second-background-color);
-    height: 252px;
-}
-#team{
-    background-color: var(--third-background-color);
 }
 
