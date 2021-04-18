@@ -118,6 +118,9 @@ img {
     margin-top: 60px;
     margin-bottom: 20px;
 }
+.address {
+    padding-left: 15px;
+}
 /* ============================ */
 .hero {
     background-color: var(--second-background-color);
@@ -143,9 +146,8 @@ img {
     padding: 50px 15px 94px;
 }
 .head {
-    background-color: var(--third-background-color);
-    margin-top: 94px;
     text-align: center;
+    padding: 94px 495px 50px;
 }
 .team {
     background-color: var(--third-background-color);
@@ -157,8 +159,16 @@ img {
     align-items: center;
 }
 .picture {
-    margin-top: 50px;
-    margin-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+}
+.name {
+    text-align: center;
+    padding-top: 30px
+}
+.alt-name {
+    text-align: center;
 }
 /* ============================ */
 
