@@ -67,7 +67,8 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 .header-logo {
-    margin-right: 93px;
+    padding-right: 93px;
+    padding-left: 15px;
 }
 .contact-link:not(:last-child) {
     margin-left: 364px;
