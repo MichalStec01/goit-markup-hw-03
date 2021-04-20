@@ -127,9 +127,11 @@ img {
 }
 /* ============================ */
 .hero {
-    background-color: var(--second-background-color);
     display: flex;
     flex-direction: column;
+}
+.section-hero {
+    background-color: var(--second-background-color);
 }
 .title {
     padding: 200px 280px 30px;
@@ -154,7 +156,6 @@ img {
     padding: 94px 495px 50px;
 }
 .team {
-    background-color: var(--third-background-color);
     margin-bottom: -94px;
 }
 .team-list {
@@ -173,6 +174,9 @@ img {
 }
 .alt-name {
     text-align: center;
+}
+.main-team {
+    background-color: var(--third-background-color);
 }
 /* ============================ */
 
