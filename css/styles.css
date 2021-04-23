@@ -174,9 +174,16 @@ img {
 }
 .alt-name {
     text-align: center;
+    padding-bottom: 30px;
+    color: var(--second-color);
+    font-size: 16px;
+    font-weight: 400px;
 }
 .main-team {
     background-color: var(--third-background-color);
+}
+.name-position {
+    background-color: var(--fourth-background-color)
 }
 /* ============================ */
 
